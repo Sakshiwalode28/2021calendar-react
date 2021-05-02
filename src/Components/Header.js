@@ -34,7 +34,7 @@ const Header = () => {
                         {context.user ? ( 
                             <>
                         <Link to='/calendar' ><li className='nav-item nav-link'>Calendar</li></Link>
-                        <Link onClick={()=> context.setUser(null)} ><li className='nav-item nav-link' to='/'>Logout</li> </Link>
+                        <Link onClick={()=> context.setUser(null)}  to='/'><li className='nav-item nav-link' >Logout</li> </Link>
                         
                         </>
                         ) : (
