@@ -20,7 +20,7 @@ const Header = () => {
 
         <Navbar className="navbar navbar-expand-lg text-black navbar-light sticky-top" style={{
             backgroundColor: '#e5e5e5',
-            width: ' 100vh',
+            width: ' 100%',
 
         }}>
             <div className="container-fluid">
