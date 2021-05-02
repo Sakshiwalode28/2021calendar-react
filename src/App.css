@@ -1,0 +1,53 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+ 
+  background: url('https://images.pexels.com/photos/5408684/pexels-photo-5408684.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260') center center/cover;
+ 
+ 
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+}
+
+form{
+  height: 364px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar__link{
+  text-decoration: none;
+}
+
+label{
+
+  margin-top: 5px;
+  text-align: left;
+}
+input{
+
+  width: 290px;
+  height: 32px;
+}
+
+.home_bg{
+  width: 100%;
+  height: 100vh;
+ 
+ 
+
+}
+
+.calendar__bg{
+  background-color: white !important;
+}
